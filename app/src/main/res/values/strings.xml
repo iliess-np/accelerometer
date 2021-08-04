@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">accelerometer</string>
+    <string name="x">X :</string>
+    <string name="y">Y :</string>
+    <string name="z">Z :</string>
+    <string name="acceleration_sum">Acceleration SUM :</string>
+    <string name="jump">jump :</string>
+    <string name="_0">0</string>
+    <string name="fall">fall :</string>
+    <string name="_0">0</string>
+    <string name="get_data">get Data</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
 </resources>

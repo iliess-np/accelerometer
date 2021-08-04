@@ -36,12 +36,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     ArrayList<Float> zData = new ArrayList<>();
     ArrayList<Float> acceleration = new ArrayList<>();
     long timeNow, timePrv = 0;
-    
+
     //save to file
     String filename, filepath, filecontent;
     Button btnSave, btnLoad;
     TextView tvLoad;
-    EditText etInput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +63,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         //file save
         btnSave = findViewById(R.id.btnSave);
         btnLoad = findViewById(R.id.btnLoad);
-        etInput = findViewById(R.id.etInput);
         tvLoad = findViewById(R.id.tvLoad);
         filename = "myFile.txt";
         filepath = "myFileDir";
@@ -87,7 +85,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    etInput.setText("");
                     Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Fail;  text cant be empty", Toast.LENGTH_SHORT).show();

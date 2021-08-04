@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,54 +11,50 @@
         android:id="@+id/x"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="X : " />
+        android:text="@string/x" />
 
     <TextView
         android:id="@+id/y"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Y : " />
+        android:text="@string/y" />
 
     <TextView
         android:id="@+id/z"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Z : " />
+        android:text="@string/z" />
 
     <TextView
         android:id="@+id/sum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Acceleration SUM : " />
+        android:text="@string/acceleration_sum" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="jump : " />
+        android:text="@string/jump" />
     <TextView
         android:id="@+id/jump"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0" />
+        android:text="@string/_0" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="fall :" />
+        android:text="@string/fall" />
     <TextView
         android:id="@+id/fall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0" />
+        android:text="@string/_0" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="get Data"
+        android:text="@string/get_data"
         android:onClick="showZData"/>
 
-    <EditText
-        android:id="@+id/etInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
     <TextView
         android:id="@+id/tvLoad"
         android:layout_width="match_parent"
@@ -68,11 +63,11 @@
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"/>
+        android:text="@string/save"/>
     <Button
         android:id="@+id/btnLoad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Load"/>
+        android:text="@string/load"/>
 
 </LinearLayout>
